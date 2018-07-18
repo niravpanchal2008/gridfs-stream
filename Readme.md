@@ -1,3 +1,7 @@
+#   N.B.
+This repo has been cloned from [gridfs-stream](https://github.com/aheckmann/gridfs-stream) to support latest node-mongodb-native library updates.
+Cursor.nextObject was deprecated since version 2 of the node-mongodb-native library and was now removed completely from the library. Because gridfs-stream uses Cursor.nextObject which is not compatible with the latest node-mongodb-native library we are using Cursor.next when Cursor.nextObject is not defined.
+
 # gridfs-stream
 
 Easily stream files to and from MongoDB [GridFS](http://www.mongodb.org/display/DOCS/GridFS).
