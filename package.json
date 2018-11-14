@@ -1,8 +1,8 @@
 {
-  "author": "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
-  "name": "gridfs-stream",
+  "name": "@appveen/gridfs-stream",
   "description": "Writable/Readable Nodejs compatible GridFS streams",
-  "version": "1.1.1",
+  "version": "1.0.0",
+  "main": "index.js",
   "keywords": [
     "mongodb",
     "mongoose",
@@ -23,8 +23,11 @@
   "engines": {
     "node": ">= 0.4.2"
   },
+  "author": "Jugnu Agrawal <jugnu@appveen.com>",
+  "homepage": "https://github.com/appveen/gridfs-stream.git#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aheckmann/gridfs-stream.git"
-  }
+    "url": "https://github.com/appveen/gridfs-stream.git"
+  },
+  "license": "MIT"
 }
