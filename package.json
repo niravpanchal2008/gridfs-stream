@@ -23,7 +23,7 @@
   "engines": {
     "node": ">= 0.4.2"
   },
-  "author": "Jugnu Agrawal <jugnu@appveen.com>",
+  "author": "Jerry M. <jerry@appveen.com>",
   "homepage": "https://github.com/appveen/gridfs-stream.git#readme",
   "repository": {
     "type": "git",
